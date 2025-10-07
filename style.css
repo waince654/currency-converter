@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #a6b1e1;
+}
+.main {
+  min-height: 40vh;
+  width: 45vh;
+  padding: 2rem;
+  border-radius: 10px;
+  background-color: aqua;
+}
+h2 {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+form {
+  margin: 2rem 0 2rem 0;
+}
+form select,
+input,
+button {
+  width: 100%;
+  border: none;
+  outline: none;
+  border-radius: 0.75rem;
+}
+form input {
+  height: 2rem;
+  padding-left: 1rem;
+  font-size: 1rem;
+  border: 1px solid lightgrey;
+}
+.from-to {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1.5rem;
+}
+.from-to img {
+  max-width: 2rem;
+  max-height: 1.5rem;
+}
+.from {
+  padding: 0.25rem;
+  border-radius: 7px;
+  display: flex;
+  background-color: white;
+  border: 0.1rem solid rgb(209, 158, 158);
+}
+.from-to i {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1.5rem;
+  font-size: 1.38rem;
+}
+.to {
+  padding: 0.25rem;
+  border-radius: 7px;
+  display: flex;
+  background-color: white;
+  border: 0.1rem solid rgb(209, 158, 158);
+}
+.msg {
+  margin: 2rem 0 2rem 0;
+  font-size: 1.2rem;
+}
+button {
+  height: 3rem;
+  color: aqua;
+  font-size: 1.25rem;
+  background-color: rgb(193, 20, 138);
+  cursor: pointer;
+}
